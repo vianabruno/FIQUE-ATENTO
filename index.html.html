@@ -1,7 +1,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Atenção!</title>
+  <title>⚠️ Atenção!</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,16 +12,27 @@
     .alerta {
       background-color: #ffe0e0;
       border: 1px solid #ff0000;
-      padding: 20px;
+      padding: 20px 30px;
       display: inline-block;
       border-radius: 8px;
-      max-width: 600px;
+      max-width: 700px;
     }
     h1 {
       color: #cc0000;
+      font-size: 32px;
     }
     p {
       font-size: 18px;
+      margin: 12px 0;
+    }
+    ul {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 16px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -30,7 +41,21 @@
     <h1>⚠️ Cuidado!</h1>
     <p>Você clicou em um link que parecia uma promoção.</p>
     <p>Esse teste foi feito pela equipe de TI como parte de uma campanha de <strong>conscientização sobre segurança da informação</strong>.</p>
-    <p>Nunca clique em links suspeitos ou desconhecidos. Verifique sempre a fonte.</p>
+    <p><strong>Nunca clique em links suspeitos ou desconhecidos.</strong> Verifique sempre a fonte antes de interagir.</p>
+
+    <p><strong>Confira algumas dicas para se proteger:</strong></p>
+    <ul>
+      <li>⚠️ Desconfie de mensagens com senso de urgência.</li>
+      <li>📩 Verifique o remetente antes de clicar.</li>
+      <li>🔍 Passe o mouse sobre o link para ver o destino real.</li>
+      <li>❌ Evite links encurtados ou fora do padrão.</li>
+      <li>🕵️‍♂️ Não clique em links de desconhecidos.</li>
+      <li>📝 Atenção a erros de ortografia e formatação.</li>
+      <li>📎 Não baixe anexos suspeitos.</li>
+      <li>🔐 Ative a verificação em duas etapas nos sistemas.</li>
+      <li>🛡️ Mantenha seu antivírus atualizado.</li>
+      <li>🙅‍♀️ Em caso de dúvida, <strong>não clique!</strong></li>
+    </ul>
   </div>
 </body>
 </html>
